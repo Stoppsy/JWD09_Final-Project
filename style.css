@@ -33,9 +33,7 @@ h1{
 }
 
 .card {
-    /* height: 300px;
-    min-height: 80%; */
-    min-height: 100%;
+    min-height: 100%; /* Make the cards all the same height */
 }
 
 .addTaskButton {
