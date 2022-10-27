@@ -5,17 +5,23 @@
     <title>ToDo List - Generation Sprint</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,100;1,300;1,900&display=swap"
         rel="stylesheet">
+
+    <!-- Bootstrap CDN link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
 
+    <!-- CSS Stylesheet -->
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
+
     <div class='container-fluid'>
 
         <!-- Title Bar -->
@@ -23,8 +29,7 @@
             <h1>To Do List - Generation</h1>
         </div>
 
-
-        <!-- Modal + Form -->
+        <!-- Modal with Form inside -->
         <div class="modal fade" id="NewTaskModal" aria-hidden="true" aria-labelledby="NewTaskModal" tabindex="-1">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
@@ -90,8 +95,10 @@
 
 
         <!-- Cards -->
+
+        <!-- We created a row with 3 columns max here using Bootstrap's card grid -->
         <div class="row row-cols-1 row-cols-md-3 g-4">
-            <!-- Card -->
+            <!-- Card 1 -->
             <div class="col">
                 <div class="card">
                     <div class="card-header">
@@ -107,7 +114,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- Card 2 -->
             <div class="col">
                 <div class="card">
